@@ -9,8 +9,9 @@ It mimics the basic UI and functionality of the Windows built-in calculator, inc
 
 ![Calculator UI]
 
-> *Add mo![Screenshot 2025-04-06 182704](https://github.com/user-attachments/assets/4698cc4a-387f-4d29-a23b-dfee9aab4319)
-![Screenshot 2025-04-06 182629](https://github.com/user-attachments/assets/de6c97f9-2466-4156-b229-e908b32f2b3c)
+> *![modified](https://github.com/user-attachments/assets/1c6b9594-be30-4499-9c84-0aad488e24df)
+> ![Screenshot 2025-04-06 182704](https://github.com/user-attachments/assets/4698cc4a-387f-4d29-a23b-dfee9aab4319)
+
 ---
 ## 🔧 Features
 
