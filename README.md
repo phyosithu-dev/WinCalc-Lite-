@@ -17,18 +17,23 @@ It mimics the basic UI and functionality of the Windows built-in calculator, inc
 
 - ✅ Standard arithmetic operations (add, subtract, multiply, divide)
 - ✅ Responsive layout styled like Windows Calculator
-- ✅ **Calculation history** tracking
-- ✅ Keyboard input support (optional if implemented)
+- ✅ **Calculation history** panel:
+  - ➕ Creates a new entry for each calculation
+  - 🖊️ Edit individual history entries
+  - ❌ Delete specific entries
+  - 🧹 Clear all history with one click
 - ❌ No advanced modes (currency, scientific, programmer)
+
 
 ---
 
 ## 🛠️ Tech Stack
 
-- 🧩 **HTML** – Structure of the calculator
-- 🎨 **CSS** – Styling and layout, inspired by Windows Calculator UI
-- ⚙️ **JavaScript (Vanilla)** – Core logic, user interaction, and history feature
-
-> 🚫 No libraries, no frameworks – built from scratch.
+- 🧩 **HTML** – Page structure and calculator layout
+- 🎨 **CSS** – Styling and visual design
+- ⚙️ **JavaScript (Vanilla)** – Handles all interactions:
+  - Calculator logic
+  - History tracking
+  - Edit/delete functionality
 
 ---
