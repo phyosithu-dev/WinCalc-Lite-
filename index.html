@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/df8716f54d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <h3 class="history-text"></h3>
+
+        <h1 class="calculator-text">0</h1>
+      </div>
+      <div class="parent-container">
+        <button class="container" id="percentage">%</button>
+        <button class="container" id="resetCurrentInput">CE</button>
+        <button class="container" id="reset">C</button>
+        <button class="container" id="backspace">
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
+        <button class="container" data-number="7">7</button>
+        <button class="container" data-number="8">8</button>
+        <button class="container" data-number="9">9</button>
+        <button class="container" data-operator="/">÷</button>
+        <button class="container" data-number="4">4</button>
+        <button class="container" data-number="5">5</button>
+        <button class="container" data-number="6">6</button>
+        <button class="container" data-operator="*">*</button>
+        <button class="container" data-number="1">1</button>
+        <button class="container" data-number="2">2</button>
+        <button class="container" data-number="3">3</button>
+        <button class="container" data-operator="-">-</button>
+        <button class="container" data-number="0">0</button>
+        <button class="container" data-number=".">.</button>
+        <button class="container" id="execute">=</button>
+        <button class="container" data-operator="+">+</button>
+      </div>
+    </main>
+    <div class="history">
+      <div style="display: flex; justify-content: space-between; padding: 5px">
+        <h4>History</h4>
+        <i class="fa-solid fa-trash"></i>
+      </div>
+    </div>
+
+    <!-- Add this icon for smaller screens -->
+    <div class="history-icon" id="historyIcon">
+      <i class="fa-solid fa-clock"></i>
+    </div>
+
+    <!-- Sliding history div -->
+    <div class="sliding-history" id="slidingHistory">
+      <div class="sliding-history-header">
+        <h4>History</h4>
+        <i class="fa-solid fa-times" id="closeHistory"></i>
+      </div>
+      <div class="sliding-history-content">
+        <!-- History content will be dynamically inserted here -->
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
